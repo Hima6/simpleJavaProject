@@ -10,6 +10,6 @@ public class HelloWorldController {
     
     @GetMapping
     public String hello(){
-        return "success";
+        return "Hello from codespace";
     }
 }
