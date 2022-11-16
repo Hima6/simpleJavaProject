@@ -16,7 +16,13 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
-
+task Javatpoint_task{  
+    group "Custom task"  
+    description "Javatpoint Gradle Custom task Example."  
+    doLast{  
+        println "$myVar";  
+    }  
+}  
 tasks.named('test') {
 	useJUnitPlatform()
 }
