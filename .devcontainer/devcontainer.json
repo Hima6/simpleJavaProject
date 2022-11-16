@@ -30,7 +30,8 @@
 			"extensions": [
 				"vscjava.vscode-java-pack",
 				"SonarSource.sonarlint-vscode",
-				"checkmarx.cxvscode"
+				"checkmarx.cxvscode",
+				"vscjava.vscode-gradle"
 			]
 		}
 	}
