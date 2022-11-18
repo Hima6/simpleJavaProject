@@ -20,7 +20,7 @@ task Javatpoint_task{
     group "Custom task"  
     description "Javatpoint Gradle Custom task Example."  
     doLast{  
-        println "$myVar";  
+        println "$CUSTOM_PROP";  
     }  
 }  
 tasks.named('test') {
