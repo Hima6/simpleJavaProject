@@ -31,7 +31,8 @@
 				"vscjava.vscode-java-pack",
 				"SonarSource.sonarlint-vscode",
 				"checkmarx.cxvscode",
-				"vscjava.vscode-gradle"
+				"vscjava.vscode-gradle",
+				"SynopsysCodeSight.vscode-codesight"
 			]
 		}
 	}
