@@ -3,7 +3,7 @@
             
     if [ \"\$MYVAR\" != \"\" ]
     then
-       echo "CUSTOM_PROP=$MYVAR">> "gradle.properties" 	
+       echo "CUSTOM_PROP=$MYVAR">> "$HOME/.gradle/gradle.properties" 	
     fi
 
  
